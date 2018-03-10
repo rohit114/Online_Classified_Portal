@@ -1,0 +1,10 @@
+.alert1
+{
+  position:absolute;
+  padding: 3px 15px;;
+  left: 14.5%;
+  background-color:#fff;
+  border-radius:5px;
+  color:rgb(255, 80, 0);
+  box-shadow:2px 2px 8px rgba(0,0,0,0.3);
+}

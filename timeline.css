@@ -1,0 +1,18 @@
+.div {
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top:50px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.title{
+
+	font-size: 30px;
+}
+.price{
+
+	font-size: 20px;
+	
+}
+

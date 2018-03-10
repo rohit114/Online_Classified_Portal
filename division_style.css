@@ -1,0 +1,19 @@
+body
+	{
+		background-color:#3CC;
+	}
+	div
+	{
+		border:2px ;
+	}
+	a
+	{
+		color:white;
+
+	}
+	a:hover
+	{
+     font-size: 150%;
+	}
+
+

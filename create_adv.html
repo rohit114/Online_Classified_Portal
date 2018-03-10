@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  
+
+    <link rel="stylesheet" href="create_adv_style.css">
+</head>
+<body>
+
+<?php
+$name ="";
+$price ="";
+$phone="";
+
+
+
+
+?>
+
+  <div class="container">
+    <div class="col-md-6">
+    <div id="logbox">
+      <form id="signup" method="post" action="signup.php">
+        <h1>create an account</h1>
+        <input name="title_adv" type="text"  placeholder="Title of Adverisement " class="input pass"  autofocus="autofocus" value="<?php echo $name; ?>"/>
+        
+        <input name="price" type="number" placeholder="Price you want ?" class="input pass" value = "<?php echo $price; ?>"   />
+        <input name="phone" type="number" placeholder="Phone Number" class="input pass" value = "<?php echo $phone; ?>"   />
+
+        <textarea rows="4" cols="20" placeholder="Describe product in 200 characters"  required="required" class="input pass">
+
+        </textarea>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Submit!" class="inputButton"/>
+        
+      </form>
+    </div>
+   </div>
+    <!--col-md-6 -->
+    
+   
+    
+  </div>
+  
+
+
+  
+
+  </body>
+</html>
+
+
